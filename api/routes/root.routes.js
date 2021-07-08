@@ -3,8 +3,8 @@ const router = express.Router();
 const rootController = require('../controllers/root.controller');
 
 router.get('/', function(req, res) {
-    // rootController.helloFront(req, res);
-    res.send('Hello Frontend!!');
+    rootController.helloFront(req, res);
+
 })
 
-module.export = router;
+module.exports = router;

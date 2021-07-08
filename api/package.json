@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "Web Store for the application and practice of what has been learned in Nodejs and Reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "Store",
+    "Nodejs",
+    "Reactjs",
+    "Mongodb"
+  ],
+  "author": "Bracco Lucas Oscar, Mercado Babi Emmanuel Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
